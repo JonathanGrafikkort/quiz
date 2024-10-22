@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
   const name = req.query.name
   res.render('index.njk', {
       title: 'Hello world',
-      message: `Hej på er te22, jag heter ${name}!`
+      message: `Fag`
   })
 })
 
